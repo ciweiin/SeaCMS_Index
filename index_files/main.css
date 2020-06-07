@@ -1,0 +1,34 @@
+.btn-primary {
+    background-color: #0678be;
+    border-color: #0678be;
+}
+
+.bg-primary {
+    background-color: #0678be !important;
+}
+
+.text-primary {
+    color: #0678be !important;
+}
+a,a:hover{
+    color: #0678be;
+}
+.page-link {
+    color: #0678be;
+}
+.page-item.active .page-link {
+    border-color: #0678be;
+    background-color: #0678be;
+}
+.point {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin: 0 10px 2px 0;
+    border-radius: 50%;
+    background: #0678be;
+}
+
+pre {
+    max-height: 600px;
+}
