@@ -1,0 +1,21 @@
+# 级联搜索调用标签
+```
+可作用于整个CMS
+此标签用于调出级联搜索页面
+{seacms:(*)caslist}
+[(*)caslist:i]菜单项排序位
+[(*)caslist:value]菜单项名称
+[(*)caslist:link]菜单项链接
+{/seacms:(*)caslist}
+*其中的'(*)'可为area地区year年份letter首字母type分类lang语言jq剧情分类state连载状态ver视频版本
+例如：
+按分类：{seacms:typecaslist}[typecaslist:value]{/seacms:typecaslist}
+按地区：{seacms:areacaslist}[areacaslist:value]{/seacms:areacaslist}
+按年份：{seacms:yearcaslist}[yearcaslist:value]{/seacms:yearcaslist}
+按字母：{seacms:lettercaslist}[lettercaslist:value]{/seacms:lettercaslist}
+按语言：{seacms:langcaslist}[langcaslist:value]{/seacms:langcaslist}
+按剧情：{seacms:jqcaslist}[jqcaslist:value]{/seacms:jqcaslist}
+按连载：{seacms:statecaslist}[statecaslist:value]{/seacms:statecaslist}
+按版本：{seacms:vercaslist}[vercaslist:value]{/seacms:vercaslist}
+按收费：{seacms:moneycaslist}[moneycaslist:value]{/seacms:moneycaslist}
+```
